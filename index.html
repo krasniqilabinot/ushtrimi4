@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>USHTRIMi 4</title>
 </head>
-
 <body align="center">
     <header align="left">
         <img src="assets/image/logo.png" alt="">
@@ -146,7 +145,7 @@
     <table   bgcolor="#3ac3b7" width="100%">
         <tr>
             <td align="left" valign="top" width="33.3%">
-                <h3>I want to receive email about:</h3><br>
+                <label for="text">I want to receive email about:</label><br>
                     <select name="pets" id="pet-select">
                         <option value="">Recipes</option>
                         <option value="#">#</option>
@@ -159,7 +158,7 @@
             </td>
             <td valign="top" width="33.3%">
                 <form action="/action_page.php">
-                    <h3>Frequency</h3><br>
+                    <label for="frequency">Frequency:</label><br>
                     <input type="radio">
                     <label for="daily">Daily</label>
                     <input type="radio">
@@ -169,12 +168,11 @@
                 </form>
             </td>
             <td align="left"valign="top" width="33.3%">
-                <h3>Email</h3>
-                <input type="email" name="email" placeholder="Ex. john@smith.com"><br> <br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" placeholder="Ex. john@smith.com"><br>
                 <button align="left"  class="btn" >Subscribe</button>
             </td>
         </tr>
     </table>
 </body>
-
 </html>
